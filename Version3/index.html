@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex Version 3</title>
+
+    
+<link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+
+<html data-theme="retro"></html>
+</head>
+<body class="">
+    <header>
+        <h1 class="text-red-500 text-4xl font-bold mx-auto justify-center items-center flex my-2">PokeDex V3</h1>
+    </header>
+    <main class="container mx-auto flex items-center justify-center">
+        
+
+    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 " id="pokemon-container">
+
+    </div>
+
+    <!-- SHOW DATAILS MODAL -->
+    <!-- Open the modal using ID.showModal() method -->
+
+<dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
+  <div class="modal-box">
+    <h3 id="id" class="text-lg font-bold flex items-center justify-center text-red-600">ID</h3>
+    <h3 id="name" class="text-2xl font-bold flex items-center justify-center">NAME</h3>
+    <div class="divider m-0"></div>
+    <!-- progress bar starts-->
+
+    <div id="progress" class="flex flex-col justify-center items-center gap-3">
+        <!-- <div class="flex justify-center items-center gap-2">
+            <h1>HP:</h1>
+            <h1>50</h1>
+            <progress class="progress progress-success w-56" value="50" max="100"></progress>
+        </div>
+        <div class="flex justify-center items-center gap-2">
+            <h1>HP:</h1>
+            <h1>50</h1>
+            <progress class="progress progress-success w-56" value="50" max="100"></progress>
+        </div>
+        <div class="flex justify-center items-center gap-2">
+            <h1>HP:</h1>
+            <h1>50</h1>
+            <progress class="progress progress-success w-56" value="50" max="100"></progress>
+        </div>
+        <div class="flex justify-center items-center gap-2">
+            <h1>HP:</h1>
+            <h1>50</h1>
+            <progress class="progress progress-success w-56" value="50" max="100"></progress>
+        </div>
+        <div class="flex justify-center items-center gap-2">
+            <h1>HP:</h1>
+            <h1>50</h1>
+            <progress class="progress progress-success w-56" value="50" max="100"></progress>
+        </div>
+        <div class="flex justify-center items-center gap-2">
+            <h1>HP:</h1>
+            <h1>50</h1>
+            <progress class="progress progress-success w-56" value="50" max="100"></progress>
+        </div> -->
+
+
+
+
+    </div>
+
+    <!-- progress bar ends -->
+    <div class="modal-action flex justify-center items-center">
+
+      <form method="dialog">
+        <!-- if there is a button in form, it will close the modal -->
+        <button class="btn font-bold">Close</button>
+      </form>
+    </div>
+  </div>
+</dialog>
+
+    </main>
+    
+    <footer class="footer footer-center bg-base-300 text-base-content p-4">
+        <aside>
+          <p>made by Sanbi Sensei TwT</p>
+        </aside>
+      </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
